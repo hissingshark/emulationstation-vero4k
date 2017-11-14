@@ -37,7 +37,7 @@ Kodi will stop whilst the build goes on and return when it’s finished (<15mins
 `./emulationstation`
 
 
-Configuration is largely beyond the scope of this Readme
+Configuration is largely beyond the scope of this Readme  
 Google and YouTube are your friends.  
 
 https://retropie.org.uk/docs/
