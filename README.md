@@ -1,7 +1,7 @@
 # emulationstation-vero4k
 Automated building of EmulationStation for the OSMC device Vero 4k
 
-This would not have been possible without the addition of mali-fbdev support by @mihailescu2m THANK YOU
+This would not have been possible without the addition of mali-fbdev support by mihailescu2m to SDL2 - THANK YOU
 
 Retropie on the RPi3 is brilliant.  
 RetrOSMC on the RPi3 is brilliant++  
@@ -37,7 +37,7 @@ Kodi will stop whilst the build goes on and return when it’s finished (<15mins
 `./emulationstation`
 
 
-Configuration is largely beyond the scope of this Readme  
+Configuration is largely beyond the scope of this Readme.  
 Google and YouTube are your friends.  
 
 https://retropie.org.uk/docs/
