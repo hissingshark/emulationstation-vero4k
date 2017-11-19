@@ -47,6 +47,9 @@ cd EmulationStation
 # CMakeLists.txt needs to find libMali.so here
 sudo ln -s /opt/vero3/lib/libMali.so /usr/lib/arm-linux-gnueabihf/libMali.so
 
+# change an assumed name for the ALSA mixer for the actual one on Vero4k
+sed -i 's/const char \* VolumeControl::mixerName = "Master";/const char \* VolumeControl::mixerName = "DAC Digital";/' ./es-app/src/VolumeControl.cpp
+
 # build/install ES
 cmake -DCMAKE_CXX_COMPILER=/usr/bin/g++-4.9 -DOPENGLES_INCLUDE_DIR=/opt/vero3/include/ .
 # install configs TODO
